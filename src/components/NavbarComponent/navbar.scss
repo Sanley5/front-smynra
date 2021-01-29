@@ -1,0 +1,44 @@
+#navbar {
+	padding: 0;
+
+	.selecting-languages {
+		span {
+			img {
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+	.social-media {
+		span {
+			a {
+				color: #F27405;
+
+				&:link {
+					text-decoration: none;
+				}
+
+				&:visited {
+					text-decoration: none;
+				}
+
+				&:hover {
+					text-decoration: none;
+					color: #fff;
+				}
+
+				&:active {
+					text-decoration: none;
+				}
+			}
+
+			svg {
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

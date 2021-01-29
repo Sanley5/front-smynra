@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+#products-component {
+	font-family: 'Advent Pro', sans-serif;
+	min-height: 100vh;
+	height: auto;
+	// background-image: url('./../../assets/images/two_columns.png');
+	// background-repeat: repeat;
+	// background-position: center;
+
+	.section-one {
+		h1 {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 600;
+			color: #fff;
+		}
+	}
+
+	.image-collection {
+		&:hover {
+			cursor: pointer;
+			border: 1px solid #F27405;
+		}
+	}
+
+	.selection-bordered {
+		border: 1px solid #F27405;
+	}
+
+	.cover-image {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+#header-component {
+	.banner-header {
+		min-height: auto;
+		color: #fff;
+
+		h3 {
+			margin-top: 75px;
+			margin-bottom: 250px;
+		}
+
+		h5 {
+			margin-top: 75px;
+			margin-bottom: 250px;
+		}
+
+		.btn-know-products {
+			background-color: #5FB6D0;
+			border-radius: 48px;
+			margin-bottom: 100px;
+		}
+	}
+}
+
+
+.selecting_languages {
+	span {
+		img {
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.over-age {
+	background-image: url('./../../assets/images/bg_pattern_overage.png');
+	background-repeat: repeat;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+#contact-component {
+	font-family: 'Advent Pro', sans-serif;
+	min-height: 70vh;
+	height: auto;
+
+	.section-one {
+		h1 {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		.FAQ {
+			font-size: 22px;
+			color: #fff;
+		}
+	}
+
+	.section-two {
+		margin-bottom: 100px;
+		h1 {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		p {
+			font-size: 22px;
+			color: #fff;
+		}
+	}
+}

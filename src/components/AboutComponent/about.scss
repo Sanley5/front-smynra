@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+#about-component {
+	font-family: 'Advent Pro', sans-serif;
+	min-height: 70vh;
+	height: auto;
+	background-image: url('./../../assets/images/two_columns.png'), url('./../../assets/images/pngwing.png');
+	background-repeat: repeat, no-repeat;
+	background-position: center;
+
+	.section-one {
+		h1 {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 600;
+			color: #fff;
+		}
+	}
+
+	.section-two {
+		h1 {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 600;
+			color: #fff;
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	.section-three {
+		h1 {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 600;
+			color: #fff;
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	.section-four {
+		margin-top: 45px;
+
+		h1 {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 600;
+			color: #fff;
+			padding: 0;
+			margin: 0;
+		}
+	}
+}

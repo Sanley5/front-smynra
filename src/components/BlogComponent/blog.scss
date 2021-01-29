@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+#blog-component {
+	font-family: 'Advent Pro', sans-serif;
+	height: auto;
+	min-height: 70vh;
+
+	.blog-post {
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+		.blog-description {
+			h1 {
+				font-size: 22px;
+			}
+
+			p {
+				color: #fff;
+				font-size: 16px;
+			}
+
+			.blog_date {
+				font-size: 14px;
+				color: #fff;
+			}
+
+			.badge {
+				color: #000000;
+				background: rgba(255, 255, 255, 0.1);
+				border: 0.25px solid #000000;
+				box-shadow: inset 0px 0px 16px 8px #FFFFFF;
+				border-radius: 16px;
+				margin: 15px;
+				padding: 5px 10px 5px 10px;
+				font-size: 16px;
+			}
+		}
+	}
+}

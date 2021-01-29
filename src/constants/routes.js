@@ -1,0 +1,7 @@
+export const ENTER = '/'
+export const HOME = '/home'
+export const ABOUT = '/about'
+export const CONTACT = '/contact'
+export const PRODUCTS = '/products'
+export const BLOG = '/blog'
+export const NOTFOUND = '*'

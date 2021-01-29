@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+#footer {
+	position: relative;
+	// bottom: 35px;
+	background: no-repeat url('./../../assets/images/paper.png');
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	font-family: 'Advent Pro', sans-serif;
+
+	.text-footer {
+		p {
+			margin-top: 0;
+			margin-bottom: 0;
+			color: #000;
+			font-weight: 700;
+			font-size: 20px;
+			padding-top: 65px;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {}
